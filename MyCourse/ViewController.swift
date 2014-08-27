@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
                             
+    @IBOutlet weak var helloButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -19,6 +21,12 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+//    @IBAction func clickButton(sender : AnyObject) {
+//        var alert:UIAlertView = UIAlertView(title: "My First App", message: "Hello World", delegate: nil, cancelButtonTitle: "OK")
+//        alert.show()
+//    }
+    
 
 
 }

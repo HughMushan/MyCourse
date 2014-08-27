@@ -12,6 +12,10 @@
 		CEC70ECE19ACAAAB007A367E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC70ECC19ACAAAB007A367E /* Main.storyboard */; };
 		CEC70ED019ACAAAB007A367E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC70ECF19ACAAAB007A367E /* Images.xcassets */; };
 		CEC70EDC19ACAAAB007A367E /* MyCourseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC70EDB19ACAAAB007A367E /* MyCourseTests.swift */; };
+		CEC70EE919ACB358007A367E /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC70EE519ACB358007A367E /* Album.swift */; };
+		CEC70EEA19ACB358007A367E /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC70EE619ACB358007A367E /* APIController.swift */; };
+		CEC70EEE19ACB6F4007A367E /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC70EED19ACB6F4007A367E /* ResultViewController.swift */; };
+		CEC70EF019ACBE56007A367E /* Blank52.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC70EEF19ACBE56007A367E /* Blank52.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,11 @@
 		CEC70ED519ACAAAB007A367E /* MyCourseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCourseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC70EDA19ACAAAB007A367E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEC70EDB19ACAAAB007A367E /* MyCourseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCourseTests.swift; sourceTree = "<group>"; };
+		CEC70EE519ACB358007A367E /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		CEC70EE619ACB358007A367E /* APIController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
+		CEC70EED19ACB6F4007A367E /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		CEC70EEF19ACBE56007A367E /* Blank52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blank52.png; sourceTree = "<group>"; };
+		CEC70EF119ACC66D007A367E /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,11 +84,16 @@
 		CEC70EC519ACAAAB007A367E /* MyCourse */ = {
 			isa = PBXGroup;
 			children = (
+				CEC70EEF19ACBE56007A367E /* Blank52.png */,
+				CEC70EE519ACB358007A367E /* Album.swift */,
+				CEC70EE619ACB358007A367E /* APIController.swift */,
 				CEC70EC819ACAAAB007A367E /* AppDelegate.swift */,
 				CEC70ECA19ACAAAB007A367E /* ViewController.swift */,
 				CEC70ECC19ACAAAB007A367E /* Main.storyboard */,
 				CEC70ECF19ACAAAB007A367E /* Images.xcassets */,
 				CEC70EC619ACAAAB007A367E /* Supporting Files */,
+				CEC70EED19ACB6F4007A367E /* ResultViewController.swift */,
+				CEC70EF119ACC66D007A367E /* MyPlayground.playground */,
 			);
 			path = MyCourse;
 			sourceTree = "<group>";
@@ -189,6 +203,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEC70EF019ACBE56007A367E /* Blank52.png in Resources */,
 				CEC70ECE19ACAAAB007A367E /* Main.storyboard in Resources */,
 				CEC70ED019ACAAAB007A367E /* Images.xcassets in Resources */,
 			);
@@ -208,8 +223,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEC70EEA19ACB358007A367E /* APIController.swift in Sources */,
 				CEC70ECB19ACAAAB007A367E /* ViewController.swift in Sources */,
+				CEC70EEE19ACB6F4007A367E /* ResultViewController.swift in Sources */,
 				CEC70EC919ACAAAB007A367E /* AppDelegate.swift in Sources */,
+				CEC70EE919ACB358007A367E /* Album.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
